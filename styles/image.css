@@ -1,0 +1,43 @@
+/*---------------------
+              image tag style
+                       -------------------*/
+
+.main-camera {
+    width: 350px;
+    height: 330px;
+    border: 2px solid #EDE4E0;
+    border-radius: 100%;
+}
+
+.influencer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: #EDE4E0;
+    border-radius: 100%;
+}
+
+.company-logo img {
+    height: 65px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.product img {
+    height: 250px;
+    width: 315px;
+}
+
+.feature-banner img {
+    width: 420px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.social-icon {
+    color: #EEEEEE;
+    background-color: #0A0826;
+    display: flex;
+}

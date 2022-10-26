@@ -1,0 +1,86 @@
+/* Media Query Style */
+/* Mobile Phone */
+@media only screen and (max-width: 688px) {
+    main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-name {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+
+    .header-name>h1 {
+        font-size: 2.5em;
+    }
+
+    .container-influencer {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    .company-logo {
+        margin: 0;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .rating {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .feature {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* ipad device */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    main {
+        width: 100%;
+    }
+
+    .header-name {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .header-name>h1 {
+        font-size: 2.5em;
+    }
+
+    .container-influencer {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    .company-logo {
+        margin: 0;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rating {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .feature {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+}

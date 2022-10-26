@@ -1,0 +1,195 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,400;1,400&family=Tangerine&display=swap');
+
+/*--------------------- 
+             All css without image 
+                       ---------------------*/
+
+body {
+    background-color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.header-name h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.menu-bar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 0px;
+}
+
+.header-name a {
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.container-influencer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 80px;
+}
+
+.influencer-detail {
+    width: 450px;
+    height: 200px;
+}
+
+.influencer-detail h1 {
+    font-size: 2em;
+}
+
+button {
+    margin-top: 16px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #E02C6D;
+    padding: 8px 18px;
+    border-radius: 41px;
+}
+
+.company-logo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin: 0 80px;
+}
+
+/*------------------
+              product
+                -------------------*/
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.product {
+    padding: 15px 15px 15px 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+.product-type .price {
+    font-weight: 400;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.rating-star {
+    display: flex;
+}
+
+/* .point {
+    font-size: 15px;
+    margin-right: 100px;
+} */
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 12px;
+    color: #FB8200;
+}
+
+.product .details {
+    margin: 5px;
+}
+
+.more-details {
+    display: block;
+    color: #E02C6D;
+    position: relative;
+    left: 1000px;
+    margin-top: 50px;
+}
+
+/* Last section */
+
+.feature {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+}
+
+.feature-name {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.feature-details p {
+    color: #6C6C6C;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+.container-last {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #0A0826;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.footer {
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+
+.social-icon p {
+    font-size: 1em;
+    margin: 0 5px;
+    border: 1px solid #FFFFFF;
+    padding: 8px;
+    border-radius: 20%;
+}

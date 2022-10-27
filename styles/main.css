@@ -119,6 +119,12 @@ button {
     display: flex;
 }
 
+.rating-star>p,
+.product-name,
+.price {
+    margin: 5px 0;
+}
+
 /* .point {
     font-size: 15px;
     margin-right: 100px;
@@ -135,11 +141,10 @@ button {
 }
 
 .more-details {
-    display: block;
     color: #E02C6D;
     position: relative;
     left: 1000px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /* Last section */

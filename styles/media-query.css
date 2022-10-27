@@ -4,6 +4,7 @@
     main {
         width: 100%;
         text-align: center;
+        padding: 10px;
     }
 
     .header-name {
@@ -36,10 +37,14 @@
         margin: 0;
     }
 
+    .more-details {
+        left: 180px;
+    }
+
     .feature {
         flex-direction: column;
         width: 100%;
-        margin: 0;
+        margin: 30px 0 0 0;
     }
 }
 
@@ -48,6 +53,7 @@
 @media only screen and (min-width: 688px) and (max-width: 992px) {
     main {
         width: 100%;
+        padding: 10px;
     }
 
     .header-name {
@@ -78,9 +84,14 @@
         margin: 0;
     }
 
+    .more-details {
+        left: 710px;
+        bottom: 70px;
+    }
+
     .feature {
         flex-direction: column;
         width: 100%;
-        margin: 0;
+        margin: 30px 0 0 0;
     }
 }

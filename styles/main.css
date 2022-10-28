@@ -47,6 +47,10 @@ main {
     color: #000000;
 }
 
+section.container-product {
+    position: relative;
+}
+
 .container-influencer {
     display: flex;
     justify-content: space-between;
@@ -142,9 +146,10 @@ button {
 
 .more-details {
     color: #E02C6D;
-    position: relative;
+    position: absolute;
     left: 1000px;
     margin-top: 40px;
+    width: 100px;
 }
 
 /* Last section */
